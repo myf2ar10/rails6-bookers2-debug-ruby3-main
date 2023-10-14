@@ -1,8 +1,8 @@
-<h3>投稿数の前日比・前週比</h3>
+a<h3>投稿数の前日比・前週比</h3>
   <div class="table_width">
     <table class='table table-bordered'>
       <thead>
-        <tr> 
+        <tr>
           <th>今日の投稿数</th>
           <th>前日の投稿数</th>
           <th>前日比</th>
@@ -27,7 +27,7 @@
   <div class="table_width">
     <table class='table table-bordered'>
       <thead>
-        <tr> 
+        <tr>
           <th>今週の投稿数</th>
           <th>前週の投稿数</th>
           <th>前週比</th>
@@ -48,4 +48,7 @@
         </tr>
       </tbody>
     </table>
+    <% @book_counts.each do |book_count| %>
+      <%= book_count %>
+    <% end %>
   </div>

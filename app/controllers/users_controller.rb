@@ -9,6 +9,9 @@ class UsersController < ApplicationController
     @yesterday_book = @books.created_yesterday
     @this_week_book = @books.created_this_week
     @last_week_book = @books.created_last_week
+    @book_counts = (0..6).map do |i|
+    @books.where(created_at: (Time.zone.now - i.days).beginning_of_day..(Time.zone.now - i.days).end_of_day).count
+    end.reverse
   end
 
   def index
