@@ -1,3 +1,11 @@
+<!--<%#= @contact.name %> 様 から問い合わせがありました。<br>-->
+<!--【Tel】：<%#= @contact.phone_number %><br>-->
+<!--【Mail】：<%#= @contact.email %><br>-->
+<!--【用件】：<%#= @contact.subject_i18n %><br>-->
+<!--【お問い合わせ内容】<br>-->
+<!--<span style="white-space: pre-wrap;"><%#= @contact.message %></span>-->
+
+202311291000
 202311071205検索結果がゼロ件 (@records.blank?) だったら「検索結果が見つかりませんでした」的な表示にする
 202311061755ログアウトjsがかかわる
 202311061705アウトできなくなった
