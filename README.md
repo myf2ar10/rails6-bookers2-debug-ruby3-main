@@ -4,6 +4,7 @@
 <!--【用件】：<%#= @contact.subject_i18n %><br>-->
 <!--【お問い合わせ内容】<br>-->
 <!--<span style="white-space: pre-wrap;"><%#= @contact.message %></span>-->
+.
 
 202312230730
 202312230013
