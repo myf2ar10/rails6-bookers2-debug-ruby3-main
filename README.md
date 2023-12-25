@@ -5,6 +5,7 @@
 <!--【お問い合わせ内容】<br>-->
 <!--<span style="white-space: pre-wrap;"><%#= @contact.message %></span>-->
 
+202312250943
 202312242035
 .
 202312230730
